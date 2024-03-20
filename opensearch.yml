@@ -1,3 +1,6 @@
 cluster.name: "animalbuttons-single-node-cluster"
 node.name: "animalbuttons-single-node"
 discovery.type: "single-node"
+plugins.security.restapi.password_min_length: 1
+plugins.security.restapi.password_score_based_validation_strength: fair
+plugins.security.disabled: true
