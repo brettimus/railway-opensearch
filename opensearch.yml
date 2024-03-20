@@ -1,0 +1,3 @@
+cluster.name: "animalbuttons-single-node-cluster"
+node.name: "animalbuttons-single-node"
+discovery.type: "single-node"
