@@ -5,3 +5,7 @@ network.host: 0.0.0.0
 plugins.security.restapi.password_min_length: 1
 plugins.security.restapi.password_score_based_validation_strength: fair
 plugins.security.disabled: true
+http.cors.enabled: true
+http.cors.allow-origin: "*"
+http.cors.allow-methods: OPTIONS, HEAD, GET, POST, PUT, DELETE
+http.cors.allow-headers: X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization
